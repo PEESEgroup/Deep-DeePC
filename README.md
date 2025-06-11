@@ -4,27 +4,25 @@ Deep-DeePC is a data-enabled predictive control framework that leverages deep ne
 
 In a numerical case study using outdoor climate data from Columbus, OH, we benchmark Deep-DeePC against a nonlinear MPC (NMPC) baseline and the standard DeePC algorithm. Our results on lettuce cultivation demonstrate superior climate regulation and highlight the approach’s scalability to other greenhouse crops and operating scenarios.
 
----
 
 ## Repository Structure
 
-Deep-DeePC/
-├── deep_deepc/ # Core implementation of the Deep-DeePC algorithm
-│ ├── controller.py # Main controller class
-│ ├── models.py # Neural network architectures
-│ └── utils.py # Data loading & preprocessing
-├── examples/ # Example scripts & notebooks
-├── data/ # Sample climate datasets
-├── tests/ # Unit tests
-├── requirements.txt # Exact package versions
-└── README.md # Project overview
+- **Deep-DeePC/**
+  - **deep_deepc/**
+    - `controller.py` – Main controller class  
+    - `models.py` – Neural network architectures  
+    - `utils.py` – Data loading & preprocessing  
+  - **examples/** – Jupyter notebooks & demo scripts  
+  - **data/** – Sample climate datasets  
+  - **tests/** – Unit tests  
+  - `requirements.txt` – Pinned package versions  
+  - `README.md` – Project overview  
 
 
----
 ## Codes
 This folder contains the Python scripts used in the study. Details of each file or folder is provided below:
 
----
+
 ## Requirements
 This project is designed for **Python 3.9** and depends on the core scientific and optimization libraries:
 - PyTorch  
@@ -40,7 +38,6 @@ All exact, tested versions are pinned in `requirements.txt`. To install them, si
 pip install -r requirements.txt
 ```
 
----
 
 ## Citation
 Please use the following citation when using the data, methods or results of this work:
