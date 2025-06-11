@@ -1,7 +1,13 @@
 # Deep-DeePC
-We propose a data-enabled predictive control framework using a deep neural network (Deep DeePC) for greenhouse climate control systems. This integration enables efficient approximation of the complex mappings required for predictive control, significantly reducing the computational burden during online implementation. To handle climate and actuator constraints effectively, we also implement a differentiable QP layer as end-to-end learning architecture. For a numerical case study using the outdoor climate data in Colombus, OH, we compared the proposed Deep DeePC framework with a nonlinear model predictive control (NMPC) baselimne and standard DeePC. The results demonstrate effective climate management for lettuce and underscore the approach’s potential scalability and generalizability to other greenhouse crops and operating conditions.
+
+Deep-DeePC is a data-enabled predictive control framework that leverages deep neural networks for real‐time greenhouse climate management. By learning the complex mapping from past measurements to future control actions, Deep-DeePC dramatically reduces the online computational load of traditional MPC schemes. To enforce physical and actuator constraints, we embed a differentiable quadratic programming (QP) layer directly into the end-to-end learning architecture.
+
+In a numerical case study using outdoor climate data from Columbus, OH, we benchmark Deep-DeePC against a nonlinear MPC (NMPC) baseline and the standard DeePC algorithm. Our results on lettuce cultivation demonstrate superior climate regulation and highlight the approach’s scalability to other greenhouse crops and operating scenarios.
+
 ---
+
 ## Repository Structure
+
 Deep-DeePC/
 ├── deep_deepc/ # Core implementation of the Deep-DeePC algorithm
 │ ├── controller.py # Main controller class
