@@ -20,7 +20,7 @@ In a numerical case study using outdoor climate data from Columbus, OH, we bench
     - `FigurePlotter()` – Figure plotting
 
   - **data/** – Sample climate datasets  
-  - `TBD.txt` – Pinned package versions  
+  - `Colombus_OH_30days.pkl` – DeeP DeePC training dataset using outdoor weather in Columbus, OH
 
 
 ## Codes
