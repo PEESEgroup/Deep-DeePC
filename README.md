@@ -19,9 +19,9 @@ In a numerical case study using outdoor climate data from Columbus, OH, we bench
     - `DNNPredictor_LSTM()` – DNN Predictor using LSTM
     - `FigurePlotter()` – Figure plotting
 
-  - **data/** – Sample climate datasets  
-  - `Colombus_OH_30days.pkl` – DeeP DeePC training dataset using outdoor weather in Columbus, OH
-
+  - **input/** – Input data
+    - `Colombus_OH_30days.pkl` – DeeP DeePC training dataset using outdoor weather in Columbus, OH
+  - **figures/** – Figures
 
 ## Codes
 This folder contains the Python scripts used in the study. Details of each file or folder is provided below:
