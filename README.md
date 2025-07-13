@@ -22,6 +22,8 @@ In a numerical case study using outdoor climate data from Columbus, OH, we bench
   - **input/** – Input data
     - `Colombus_OH_30days.pkl` – DeeP DeePC training dataset using outdoor weather in Columbus, OH
   - **figures/** – Figures
+  - **trained_model/** – Trained model
+    - `checkpoint_lstm.pth` – DeeP DeePC training dataset using outdoor weather in Columbus, OH
 
 ## Codes
 This folder contains the Python scripts used in the study. Details of each file or folder is provided below:
