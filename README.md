@@ -8,7 +8,9 @@ In a numerical case study using outdoor climate data from Columbus, OH, we bench
 ## Repository Structure
 
 - **Deep-DeePC/**
-  - **main_code/**
+  - `requirements.txt` – Pinned package versions  
+  - `README.md` – Project overview
+  - `main_code.ipynb` – Main code for simulation
     - `GreenhouseParams()` – Greenhouse parameters  
     - `CropClimateModel()` – Nonlinear crop-climate model
     - `DiffQPLayer()` – Differentiable QP layer
@@ -18,8 +20,7 @@ In a numerical case study using outdoor climate data from Columbus, OH, we bench
     - `FigurePlotter()` – Figure plotting
 
   - **data/** – Sample climate datasets  
-  - `requirements.txt` – Pinned package versions  
-  - `README.md` – Project overview  
+  - `TBD.txt` – Pinned package versions  
 
 
 ## Codes
