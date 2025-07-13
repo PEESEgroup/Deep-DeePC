@@ -8,13 +8,16 @@ In a numerical case study using outdoor climate data from Columbus, OH, we bench
 ## Repository Structure
 
 - **Deep-DeePC/**
-  - **deep_deepc/**
-    - `controller.py` – Main controller class  
-    - `models.py` – Neural network architectures  
-    - `utils.py` – Data loading & preprocessing  
-  - **examples/** – Jupyter notebooks & demo scripts  
+  - **main_code/**
+    - `GreenhouseParams()` – Greenhouse parameters  
+    - `CropClimateModel()` – Nonlinear crop-climate model
+    - `DiffQPLayer()` – Differentiable QP layer
+    - `DeepDeePC()` – Deep DeePC framework
+    - `DeepDeePCDataset()` – Deep DeePC dataset generation
+    - `DNNPredictor_LSTM()` – DNN Predictor using LSTM
+    - `FigurePlotter()` – Figure plotting
+
   - **data/** – Sample climate datasets  
-  - **tests/** – Unit tests  
   - `requirements.txt` – Pinned package versions  
   - `README.md` – Project overview  
 
